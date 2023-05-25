@@ -10,23 +10,22 @@
 </head>
 <body>
     <header class="py-3">
-      <div class="container lg:flex lg:flex-row lg:justify-between">
+      <div class="container flex flex-row justify-between">
         <img src="Images/logo.png" alt="logo"/>
-        <span class="material-symbols-outlined text-3xl">menu</span>
+        <span class="material-symbols-outlined text-3xl cursor-pointer">menu</span>
       </div>
     </header>  
     <main>
       <section class="bg-bg text-textColor">
-        <div class="container lg:grid lg:grid-cols-2 lg:pt-40 lg:pb-1 relative overflow-hidden">
-           <div>
-             <h1 class="text-primary lg:text-6xl font-medium">Online School</h1>
-             <p class="lg:pt-7 text-lg lg:w-[80%]">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
-             <p class="lg:pt-7 text-[1rem]">Images from <a href="" class="border-b-2 hover:border-b-grad2">Freepik</a></p>
-             <button class="lg:mt-11 py-4 px-12 rounded-full bg-gradient-to-r from-grad1 to-grad2 cursor-pointer">Learn more</button>
+        <div class="container relative overflow-hidden flex flex-col pt-16 lg:grid lg:grid-cols-2 lg:pt-40">
+           <div class="flex flex-col place-items-center lg:place-items-start">
+             <h1 class="text-primary font-medium text-4xl lg:text-6xl">Online School</h1>
+             <p class="w-full text-center pt-5 lg:text-left lg:pt-7 text-lg lg:w-[80%]">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
+             <p class="pt-5 lg:text-left lg:pt-7 text-[1rem]">Images from <a href="" class="border-b-2 hover:border-b-grad2">Freepik</a></p>
+             <button class="mt-6 lg:text-left lg:mt-11 py-4 px-12 rounded-full bg-gradient-to-r from-grad1 to-grad2 cursor-pointer">Learn more</button>
            </div>
-           <div class="relative">
-            <p class="lg:w-[80%] lg:h-[68vh] rounded-full bg-gradient-to-r from-grad1 to-grad2"></p>
-            <img src="Images/girl.png" alt="girl" class="absolute -top-20 lg:w-[75%]" />
+           <div class="border border-grad2 rounded-full bg-gradient-to-r from-grad1 to-grad2 mt-16">
+            <img src="Images/girl.png" alt="girl" class="w-full md:w-full -mt-14 lg:w-[80%] mx-auto lg:-mt-32" />
            </div>
         </div>
       </section>
@@ -34,51 +33,51 @@
       <!-- section part -->
 
       <section class="bg-gradient-to-r from-grad1 to-grad2 text-white"> 
-        <div class="container py-32 lg:flex lg:flex-col lg:place-items-center font-textFamily ">
-           <h2 class="text-5xl font-medium pb-16 text-center">Start learning from <br/>the world’s best institutions</h2>
-           <div class="lg:grid lg:grid-cols-3">
-            <div class="lg:flex lg:flex-col py-10 font-textFamily lg:w-[70%]">
-               <div class="lg:flex lg:flex-row place-items-center pb-8 gap-5">
+        <div class="container font-textFamily py-10 place-items-start lg:py-32 md:flex md:flex-col md:place-items-center">
+           <h2 class="text-2xl text-left md:text-center md:text-5xl font-medium pb-16 lg:text-center">Start learning from <br class="hidden md:block"/>the world’s best institutions</h2>
+           <div class="grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-6 lg:grid lg:grid-cols-3">
+            <div class="py-10 font-textFamily w-full lg:flex lg:flex-col lg:w-[70%]">
+               <div class="place-items-center pb-8 space-y-5 lg:space-y-0 lg:flex lg:flex-row lg:gap-5">
                 <h3 class="text-5xl font-extrabold">01</h3>
                 <p class="text-xl font-medium">Marketing</p>
                </div>
                <p class="italic">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit</p>
             </div>
 
-            <div class="lg:flex lg:flex-col py-10 font-textFamily lg:w-[70%]">
-                <div class="lg:flex lg:flex-row place-items-center pb-8 gap-5">
+            <div class="lg:flex lg:flex-col py-10 font-textFamily w-full lg:w-[70%]">
+                <div class="space-y-5 place-items-center pb-8 gap-5 lg:flex lg:flex-row lg:space-y-0">
                  <h3 class="text-5xl font-extrabold">02</h3>
                  <p class="text-xl font-medium">Web Design</p>
                 </div>
                 <p class="italic">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit</p>
             </div>
 
-            <div class="lg:flex lg:flex-col py-10 font-textFamily lg:w-[70%]">
-                <div class="lg:flex lg:flex-row place-items-center pb-8 gap-5">
+            <div class="lg:flex lg:flex-col py-10 font-textFamily w-full lg:w-[70%]">
+                <div class="space-y-5 place-items-center pb-8 gap-5 lg:flex lg:flex-row lg:space-y-0">
                  <h3 class="text-5xl font-extrabold">03</h3>
                  <p class="text-xl font-medium">Exel Course</p>
                 </div>
                 <p class="italic">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit</p>
             </div>
 
-            <div class="lg:flex lg:flex-col py-10 font-textFamily lg:w-[70%]">
-                <div class="lg:flex lg:flex-row place-items-center pb-8 gap-5">
+            <div class="lg:flex lg:flex-col py-10 font-textFamily w-full lg:w-[70%]">
+                <div class="space-y-5 place-items-center pb-8 gap-5 lg:flex lg:flex-row lg:space-y-0">
                  <h3 class="text-5xl font-extrabold">04</h3>
                  <p class="text-xl font-medium">Branding</p>
                 </div>
                 <p class="italic">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit</p>
             </div>
 
-            <div class="lg:flex lg:flex-col py-10 font-textFamily lg:w-[70%]">
-                <div class="lg:flex lg:flex-row place-items-center pb-8 gap-5">
+            <div class="lg:flex lg:flex-col py-10 font-textFamily w-full lg:w-[70%]">
+                <div class="space-y-5 place-items-center pb-8 gap-5 lg:flex lg:flex-row lg:space-y-0">
                  <h3 class="text-5xl font-extrabold">05</h3>
                  <p class="text-xl font-medium">Leadership</p>
                 </div>
                 <p class="italic">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit</p>
             </div>
 
-            <div class="lg:flex lg:flex-col py-10 font-textFamily lg:w-[70%]">
-                <div class="lg:flex lg:flex-row place-items-center pb-8 gap-5">
+            <div class="lg:flex lg:flex-col py-10 font-textFamily w-full lg:w-[70%]">
+                <div class="space-y-5 place-items-center pb-8 gap-5 lg:flex lg:flex-row lg:space-y-0">
                  <h3 class="text-5xl font-extrabold">06</h3>
                  <p class="text-xl font-medium">Python Basics</p>
                 </div>
@@ -93,48 +92,48 @@
       <!-- other sections -->
       <section class="bg-bg text-textColor font-textFamily">
         <div class="container py-16">
-            <h1 class="text-center lg:text-6xl lg:pt-14 font-bold">Pathways for your<br/> advancement</h1>
-          <div class="lg:flex lg:flex-row gap-10 pt-14 text-cardTextColor font-textFamily place-content-center">
-            <article class="p-8 rounded-3xl lg:w-[28%] lg:h-[80vh] lg:flex lg:flex-col bg-gradient-to-b from-card1grad1 to-card1grad2">
-                <h1 class="font-semibold text-3xl divide-y-2 pb-3 border-b border-black">Executive <br/>Education</h1>
-                <p class="mt-52 text-[1rem]">Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+            <h1 class="text-center text-2xl md:text-6xl lg:pt-14 font-bold">Pathways for your<br/> advancement</h1>
+          <div class="flex flex-col lg:flex-row gap-10 pt-14 text-cardTextColor font-textFamily place-content-center">
+            <article class="p-8 rounded-3xl w-full h-[70vh] lg:w-[28%] lg:h-[80vh] flex flex-col bg-gradient-to-b from-card1grad1 to-card1grad2">
+                <h1 class="font-semibold text-2xl lg:text-3xl divide-y-2 pb-3 border-b border-black">Executive <br class="block md:hidden lg:block"/>Education</h1>
+                <p class="mt-32 md:mt-60 lg:mt-56 text-[1rem]">Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
                 <span class="material-symbols-outlined text-6xl ml-auto mt-7">arrow_right_alt</span>
             </article>
 
-            <article class="p-8 rounded-3xl lg:w-[28%] lg:h-[80vh] lg:flex lg:flex-col bg-gradient-to-l from-card2grad2 to-card2grad1">
-                <h1 class="font-semibold text-3xl divide-y-2 pb-3 border-b border-black">Professional<br/> Certificates</h1>
-                <p class="mt-52 text-[1rem]">Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+            <article class="p-8 rounded-3xl w-full h-[70vh] lg:w-[28%] lg:h-[80vh] flex flex-col bg-gradient-to-l from-card2grad2 to-card2grad1">
+                <h1 class="font-semibold text-2xl lg:text-3xl divide-y-2 pb-3 border-b border-black">Professional<br class="block md:hidden lg:block"/> Certificates</h1>
+                <p class="mt-32 md:mt-60 lg:mt-56 text-[1rem]">Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
                 <span class="material-symbols-outlined text-6xl ml-auto mt-7">arrow_right_alt</span>
             </article>
 
-            <article class="p-8 rounded-3xl lg:w-[28%] lg:h-[80vh] lg:flex lg:flex-col bg-gradient-to-b from-card3grad1 to-card3grad2">
-                <h1 class="font-semibold text-3xl divide-y-2 pb-3 border-b border-black">Online degree<br /> programs</h1>
-                <p class="mt-52 text-[1rem]">Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+            <article class="p-8 rounded-3xl w-full h-[70vh] lg:w-[28%] lg:h-[80vh] flex flex-col bg-gradient-to-b from-card3grad1 to-card3grad2">
+                <h1 class="font-semibold text-2xl lg:text-3xl divide-y-2 pb-3 border-b border-black">Online degree<br class="block md:hidden lg:block"/> programs</h1>
+                <p class="mt-32 md:mt-60 lg:mt-56 text-[1rem]">Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
                 <span class="material-symbols-outlined text-6xl ml-auto mt-7">arrow_right_alt</span>
             </article>
           </div>
-          <p class="lg:pt-7 text-[1rem] text-center">Images from <a href="" class="border-b-2 hover:text-grad2 hover:border-b-grad2">Freepik</a></p>
+          <p class="pt-5 lg:pt-7 text-[1rem] text-center">Images from <a href="" class="border-b-2 hover:text-grad2 hover:border-b-grad2">Freepik</a></p>
         </div>
       </section>
 
       <!-- another section -->
       <section class="font-textFamily text-black">
-        <div class="container lg:grid lg:grid-cols-2 py-16 font-textFamily">
-           <div class="py-8">
-             <h3 class="text-grad1 text-5xl font-semibold">For every student,<br/>
-                every classroom.<br/>
+        <div class="container grid grid-cols-1 lg:grid-cols-2 py-16 font-textFamily">
+           <div class="py-8 text-center lg:text-left">
+             <h3 class="text-grad1 text-2xl text-center lg:text-left md:text-4xl md:font-medium lg:text-5xl font-semibold">For every student,<br class="hidden md:block"/>
+                every classroom.<br class="hidden md:block"/>
                 Real results
              </h3>
              <p class="text-lg pt-8 font-normal">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
              <p class="lg:pt-7 text-[1rem]">Images from <a href="" class="border-b-2 hover:text-grad2 hover:border-b-grad2">Freepik</a></p>
-             <div class="lg:flex lg:flex-row gap-8 mt-10 text-white">
-                <button class="py-3 px-12 rounded-full bg-gradient-to-r from-grad1 to-grad2">Learners</button>
-                <button class="py-3 px-12 rounded-full bg-gradient-to-r from-grad1 to-grad2">Teachers</button>
-                <button class="py-3 px-12 rounded-full bg-gradient-to-r from-grad1 to-grad2">Classes</button>
+             <div class="flex flex-col place-items-center lg:place-content-start md:flex-row gap-8 mt-10 text-white">
+                <button class="w-[60%] lg:w-full py-3 px-12 rounded-full bg-gradient-to-r from-grad1 to-grad2">Learners</button>
+                <button class="w-[60%] lg:w-full py-3 px-12 rounded-full bg-gradient-to-r from-grad1 to-grad2">Teachers</button>
+                <button class="w-[60%] lg:w-full py-3 px-12 rounded-full bg-gradient-to-r from-grad1 to-grad2">Classes</button>
              </div>
             </div>
            <div>
-             <img src="Images/girlseating.avif" alt="a girl seating" class="ml-auto rounded-full lg:h-[100%] lg:w-[90%]"/>
+             <img src="Images/girlseating.avif" alt="a girl seating" class="ml-auto rounded-full w-full lg:h-[100%] lg:w-[90%]"/>
            </div>
         </div>
       </section>
@@ -142,10 +141,10 @@
       <!-- Another section is out -->
 
       <section class="bg-gradient-to-r from-grad1 to-grad2">
-        <div class="container py-16 lg:flex lg:flex-col place-items-center font-textFamily text-white">
-          <h1 class="font-semibold text-5xl py-4">Free Online Courses</h1>
-          <p class="text-xl text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br/> tempor incididunt ut labore et dolore magna aliqua.</p>
-         <div class="lg:flex lg:flex-row gap-5 pt-10 text-cardTextColor">
+        <div class="container py-16 flex flex-col place-items-center font-textFamily text-white">
+          <h1 class="font-semibold text-2xl lg:text-5xl py-4">Free Online Courses</h1>
+          <p class="lg:text-xl text-lg text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br/> tempor incididunt ut labore et dolore magna aliqua.</p>
+         <div class="flex flex-col lg:flex-row gap-5 pt-10 text-cardTextColor">
            <article class="p-5 rounded-2xl bg-white text-center">
              <img src="Images/fg.jpg" alt="student" class="rounded-2xl" />
              <h3 class="text-2xl pt-5 font-medium">Arts & Humanities</h3>
@@ -167,14 +166,14 @@
             <a href="" class="border-b-2 border-b-grad2">MORE</a>
           </article>
          </div>
-         <p class="lg:pt-7 text-[1rem]">Images from <a href="" class="border-b-2 hover:text-grad2 hover:border-b-grad2">Freepik</a></p>
+         <p class="pt-5 lg:pt-7 text-[1rem]">Images from <a href="" class="border-b-2 hover:text-grad2 hover:border-b-grad2">Freepik</a></p>
         </div>
       </section>
 
       <!-- Another section -->
       <section class="bg-bg text-white">
-        <div class="container lg:grid lg:grid-cols-2  gap-10 font-textFamily py-20">
-           <div class="lg:grid lg:grid-cols-2 gap-5">
+        <div class="container grid grid-cols-1 mx-auto lg:mx-0 lg:grid-cols-2  gap-10 font-textFamily py-20">
+           <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
               <article class="flex flex-col rounded-2xl py-8 place-items-center bg-gradient-to-br from-smallcards1gard2 to-smallcards1gard1">
                  <h1 class="text-7xl font-bold">50k</h1>
                  <p class="text-lg pt-4">happy customers</p>
@@ -192,51 +191,51 @@
                 <p class="text-lg pt-4">learners worldwide</p>
              </article>
            </div>
-           <div class="my-auto">
-             <h5 class="text-4xl">The highest quality online<br/> courses from institutions</h5>
-             <p class="text-[1rem] pt-3">Sample text. Click to select the Text Element.</p>
-             <button class="lg:mt-11 py-4 px-12 rounded-full bg-gradient-to-r from-grad1 to-grad2 cursor-pointer">Learn more</button>
+           <div class="lg:my-auto flex flex-col place-items-center lg:place-items-start">
+             <h5 class="text-xl lg:text-4xl">The highest quality online<br/> courses from institutions</h5>
+             <p class="text-[1rem] text-center lg:text-left pt-3">Sample text. Click to select the Text Element.</p>
+             <button class="mt-6  lg:mt-11 py-4 px-12 rounded-full bg-gradient-to-r from-grad1 to-grad2 cursor-pointer">Learn more</button>
            </div>
         </div>
       </section>
 
       <!-- final section -->
       <section class="bg-gradient-to-bl from-[#ff5b69] to-card2grad1">
-        <div class="container font-textFamily py-14  lg:flex lg:flex-col place-items-center">
-          <div class="lg:grid lg:grid-cols-3 gap-6 place-content-center">
-            <article class="text-center bg-white py-14 px-8 rounded-2xl">
+        <div class="container font-textFamily py-14  flex flex-col place-items-center">
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 place-content-center">
+            <article class="text-center bg-white py-5 px-4 lg:py-14 lg:px-8 rounded-2xl">
                 <p class="text-[#808080] text-lg">Proin sed libero enim sed faucibus turpis. At imperdiet dui accumsan sit amet nulla facilisi morbi tempus. Ut sem nulla pharetra diam sit amet nisl. Enim nunc</p>
                 <p class="text-grad2 text-xl py-4 font-normal">CELIA ALMEDA</p>
                 <img src="Images/quotes.png" alt="quotes" class="w-10 h-10 mx-auto"/>
             </article>
-                <article class="text-center  bg-white py-14 px-8 rounded-2xl">
+                <article class="text-center  bg-white py-5 px-4 lg:py-14 lg:px-8 rounded-2xl">
                     <p class="text-[#808080] text-lg">Proin sed libero enim sed faucibus turpis. At imperdiet dui accumsan sit amet nulla facilisi morbi tempus. Ut sem nulla pharetra diam sit amet nisl.</p>
                     <p class="text-grad2 text-xl py-4 font-normal">FRANK KINNEY</p>
                     <img src="Images/quotes.png" alt="quotes" class="w-10 h-10 mx-auto"/>
                 </article>
-                <article class="text-center bg-white py-14 px-8 rounded-2xl">
+                <article class="text-center bg-white py-5 px-4 lg:py-14 lg:px-8 rounded-2xl">
                     <p class="text-[#808080] text-lg">Proin sed libero enim sed faucibus turpis. At imperdiet dui accumsan sit amet nulla facilisi morbi tempus. Ut sem nulla pharetra diam sit amet nisl.</p>
                     <p class="text-grad2 text-xl py-4 font-normal">OLGA IVANOVA</p>
                     <img src="Images/quotes.png" alt="quotes" class="w-10 h-10 mx-auto"/>
                 </article>
-                <article class="text-center bg-white py-14 px-8 rounded-2xl">
+                <article class="text-center bg-white py-5 px-4 lg:py-14 lg:px-8 rounded-2xl">
                     <p class="text-[#808080] text-lg">Proin sed libero enim sed faucibus turpis. At imperdiet dui accumsan sit amet nulla facilisi morbi tempus. Ut sem nulla pharetra diam sit amet nisl.</p>
                     <p class="text-grad2 text-xl py-4 font-normal">JACK ALVAREZ</p>
                     <img src="Images/quotes.png" alt="quotes" class="w-10 h-10 mx-auto"/>
                 </article>
-                <article class="text-center bg-white py-14 px-8 rounded-2xl">
+                <article class="text-center bg-white py-5 px-4 lg:py-14 lg:px-8 rounded-2xl">
                     <p class="text-[#808080] text-lg">Proin sed libero enim sed faucibus turpis. At imperdiet dui accumsan sit amet nulla facilisi morbi tempus. Ut sem nulla pharetra diam sit amet nisl.</p>
                     <p class="text-grad2 text-xl py-4 font-normal">PAUL HUDSON</p>
                     <img src="Images/quotes.png" alt="quotes" class="w-10 h-10 mx-auto"/>
                 </article>
-                <article class="text-center bg-white py-14 px-8 rounded-2xl">
+                <article class="text-center bg-white py-5 px-4 lg:py-14 lg:px-8 rounded-2xl">
                     <p class="text-[#808080] text-lg">Proin sed libero enim sed faucibus turpis. At imperdiet dui accumsan sit amet nulla facilisi morbi tempus. Ut sem nulla pharetra diam sit amet nisl.</p>
                     <p class="text-grad2 text-xl py-4 font-normal">NICK JHONSON</p>
                     <img src="Images/quotes.png" alt="quotes" class="w-10 h-10 mx-auto"/>
                 </article>
           </div> 
-          <button class="lg:mt-11 py-4 px-12 rounded-full bg-gradient-to-r from-grad1 to-grad2 cursor-pointer text-white">More</button>
-          <p class="lg:pt-7 text-[1rem]">Images from <a href="" class="border-b-2 hover:border-b-grad2">Freepik</a></p>          
+          <button class="mt-8 lg:mt-11 py-4 px-12 rounded-full bg-gradient-to-r from-grad1 to-grad2 cursor-pointer text-white">More</button>
+          <p class="pt-6 lg:pt-7 text-[1rem]">Images from <a href="" class="border-b-2 hover:border-b-grad2">Freepik</a></p>          
         </div>
       </section>
     </main>
@@ -244,19 +243,19 @@
         <section class="my-14">
           <div class="container lg:grid lg:grid-cols-2 gap-8 font-textFamily">
              <div class="bg-gradient-to-b from-grad1 to-grad2 py-10 px-8 text-white">
-                <h2 class="text-5xl font-normal">Contact Us</h2>
-                <p class="text-2xl py-8 border-b border-white">Any questions or remarks? Just write us a message!</p>
+                <h2 class="text-3xl lg:text-5xl font-normal">Contact Us</h2>
+                <p class="text-lg lg:text-2xl py-8 border-b border-white">Any questions or remarks? Just write us a message!</p>
                 <h4 class="text-2xl font-medium py-5">Sydney</h4>
                 <p class="pb-8 text-lg border-b border-white">45 Pirrama Rd, Pyrmont NSW 2022</p>
                 <h4 class="text-2xl font-medium py-5">Melbourne</h4>
                 <p class="pb-8 text-lg border-b border-white">163 Collins St, Melbourne VIC 3000</p>
                 <h4 class="text-2xl font-medium py-5">Los Angeles</h4>
                 <p class="pb-8 text-lg border-b border-white">340 Main St, Venice CA 902291, USA</p>
-                <p class="lg:py-14 text-[1rem]">Images from <a href="" class="border-b-2 hover:border-b-grad2">Freepik</a></p>
+                <p class="md:pt-6 lg:py-14 text-[1rem]">Images from <a href="" class="border-b-2 hover:border-b-grad2">Freepik</a></p>
              </div>
              <div class=" py-10 px-8 text-cardTextColor">
-                <h2 class="text-5xl font-normal">Get in Touch</h2>
-                <p class="text-xl py-8">Have an inquiry or some feedbak for us? Fill out the form below to contact our team.</p>
+                <h2 class="text-3xl lg:text-5xl font-normal">Get in Touch</h2>
+                <p class="text-lg lg:text-xl py-8">Have an inquiry or some feedbak for us? Fill out the form below to contact our team.</p>
                 <form action="#" method="post" class="flex flex-col">
                    <label for="name" class="text-[1rem]">Name</label>
                    <input type="text" id='name' placeholder="Enter your Name" class="py-4 outline-none border-b-2 border-black" />
@@ -273,7 +272,7 @@
         <section class="bg-[#333333] font-textFamily">
           <div class="container py-16 flex flex-col justify-between place-items-center text-white">
              <p>Sample text. Click to select the Text Element.</p>
-             <p class="mt-20"><a href="" class="text-grad2 underline hover:no-underline hover:text-cardTextColor">Free Landing Page</a> created with <a href="" class="text-grad2 underline hover:no-underline hover:text-cardTextColor">Website Builder Software</a></p>
+             <p class="mt-8 lg:mt-20"><a href="" class="text-grad2 underline hover:no-underline hover:text-cardTextColor">Free Landing Page</a> created with <a href="" class="text-grad2 underline hover:no-underline hover:text-cardTextColor">Website Builder Software</a></p>
           </div>
         </section>
     </footer>
