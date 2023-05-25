@@ -11,7 +11,7 @@
 
 ## Live Demo 
 
-[Live Demo Link]()
+[Live Demo Link](https://online-school-landing-page.netlify.app/)
 
 ## Getting Started
 
