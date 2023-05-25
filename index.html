@@ -10,23 +10,23 @@
 </head>
 <body>
     <header class="py-3">
-      <div class="container lg:flex lg:flex-row lg:justify-between">
+      <div class="container flex flex-row justify-between">
         <img src="Images/logo.png" alt="logo"/>
-        <span class="material-symbols-outlined text-3xl">menu</span>
+        <span class="material-symbols-outlined text-3xl cursor-pointer">menu</span>
       </div>
     </header>  
     <main>
       <section class="bg-bg text-textColor">
-        <div class="container lg:grid lg:grid-cols-2 lg:pt-40 lg:pb-1 relative overflow-hidden">
-           <div>
-             <h1 class="text-primary lg:text-6xl font-medium">Online School</h1>
-             <p class="lg:pt-7 text-lg lg:w-[80%]">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
-             <p class="lg:pt-7 text-[1rem]">Images from <a href="" class="border-b-2 hover:border-b-grad2">Freepik</a></p>
-             <button class="lg:mt-11 py-4 px-12 rounded-full bg-gradient-to-r from-grad1 to-grad2 cursor-pointer">Learn more</button>
+        <div class="container relative overflow-hidden flex flex-col pt-16 pb-10 lg:grid lg:grid-cols-2 lg:pt-40 lg:pb-1">
+           <div class="flex flex-col place-items-center lg:place-items-start">
+             <h1 class="text-primary font-medium text-4xl lg:text-6xl">Online School</h1>
+             <p class="w-full text-center pt-5 lg:text-left lg:pt-7 text-lg lg:w-[80%]">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
+             <p class="pt-5 lg:text-left lg:pt-7 text-[1rem]">Images from <a href="" class="border-b-2 hover:border-b-grad2">Freepik</a></p>
+             <button class="mt-6 lg:text-left lg:mt-11 py-4 px-12 rounded-full bg-gradient-to-r from-grad1 to-grad2 cursor-pointer">Learn more</button>
            </div>
-           <div class="relative">
-            <p class="lg:w-[80%] lg:h-[68vh] rounded-full bg-gradient-to-r from-grad1 to-grad2"></p>
-            <img src="Images/girl.png" alt="girl" class="absolute -top-20 lg:w-[75%]" />
+           <div class="relative mt-10 lg:mt-0">
+            <p class="w-[100%] h-[14rem] mt-10 lg:mt-0 lg:w-[80%] lg:h-[68vh] rounded-full bg-gradient-to-r from-grad1 to-grad2"></p>
+            <img src="Images/girl.png" alt="girl" class="absolute top-0 lg:-top-20 lg:w-[75%]" />
            </div>
         </div>
       </section>
